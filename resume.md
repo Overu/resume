@@ -11,6 +11,7 @@
 - Github: [https://github.com/Overu](https://github.com/Overu)
 - 期望职位: JavaScript/前端工程师
 - 期望薪资: 23 ~ 28k
+- 简历: [https://github.com/Overu/resume/blob/master/resume.md](https://github.com/Overu/resume/blob/master/resume.md)
 
 ---
 
