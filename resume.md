@@ -22,9 +22,21 @@
 - 改造开发、测试流程，极大提高效率
 
 ### Kratos
-- 微盟小程序平台，提供了一种用微信小程序的语法和开发方式开发微盟小程序，将小程序变成第一语言，一套代码、多端运行
+- 微盟小程序平台，提供了一种用微信小程序的语法和开发方式开发微盟小程序，将小程序变成第一语言，一套代码、多端运行，支持小程序组件和Vue组件混编
 - 由Android/iOS SDK、小程序转译工具和运行时、后端审核和版本管理平台组成
 - 第三方开发者或有自研能力的商户可以将自己的小程序移植到微盟小程序平台，同时也支持整体部署在自有的App中
+- 基于pnpm、TypeScript、Vue、vite、esbuild、swc、postCSS等，从0搭建现代化的工程体系
+- 前端负责人和主程序员
+
+### 搜狗小程序
+- 搜狗输入法小程序，提供登陆、选择商户、分享商品信息到聊天框等功能
+- 基于Vue、TypeScript、Webpack
+- 独立开发
+
+### base-bridge
+- 封装Android/iOS bridge，提供标准化接口，为App中大量的Hybrid页面提供服务
+- TypeScript
+- 独立开发
 
 ## 宁波华鼐时空网络科技有限公司 (2019.06 ~ 2020.03)
 ### vsmap
@@ -64,7 +76,7 @@
 ## 宁波华鼐时空网络科技有限公司 (2017.09 ~ 2018.09)
 ### MapCube
 - JavaScriptD地图渲染SDK，支持室内外地图同屏展示，一体化定位导航，支持数据预处理
-- 基于WebGL，私有数据格式
+- 基于WebGL、Flow.js、Webpack等，私有数据格式
 - 主程序员，基础代码编写和集成高德室外地图、转换工具等
 - 通过转换工具对地图数据进行预处理，即可以避免数据暴露，同时也可以让三角化、合并等耗时操作脱离浏览器
 
@@ -95,14 +107,15 @@ demo: 地图数据比较大，网络较慢，需要梯子，请耐心等待。[h
 
 ### 阅读器
 - 基于HTLM5/CSS3的在线阅读器
-- 使用PhoneGap(Apache Cordova)编译到不同平台，基于GWT实现Java to JavaScript的转换
+- Hybrid的早期探索，使用PhoneGap(Apache Cordova)编译到不同平台，基于GWT实现Java to JavaScript的转换
 - 负责前端开发
 --- 
 
 # 业余项目
 
 ### wx-compiler
-将微信小程序组件(script、json、wxml、wxss)转化为Vue Component，支持绝大多数的语法
+将微信小程序组件(script、json、wxml、wxss)转化为Vue Component Render，支持绝大多数的语法
+- 对swc、esbuild做了大量探索和应用
 - wxml repl：[https://overu.github.io/wx-ast-explorer/index.html](https://overu.github.io/wx-ast-explorer/index.html)
 
 ### 单位换算
@@ -116,7 +129,7 @@ demo: 地图数据比较大，网络较慢，需要梯子，请耐心等待。[h
 - 语言: JavaScript/TypeScript/Java/Kotlin/C/C++
 - 前端框架: Vue/React/ReactNative
 - 前端工具: vite/webpack/rollup
-- 平台: Android/Electron/微信小程序
+- 平台: Android/Electron/微信小程序/Hybrid
 - 其他: WebGL/Node.js
 
 -- -
