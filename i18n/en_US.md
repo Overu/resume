@@ -1,134 +1,92 @@
-# Contact me
-- Mobile: 18500195263
-- E-mail: fengjianok@gmail.com
+# Jian Feng
+
+Shanghai | 185-0019-5263 | fengjianok@gmail.com | [GitHub](https://github.com/Overu)
+Target Position: JavaScript / Front-end Architect / Senior Front-end Developer
 
 ---
 
-# About me
-- jian.feng/Male/1988/Shanghai
-- Junior College/ Fudan University (self-taught)
-- Years of work: 2012 ~ present, 11 years
-- Github: https://github.com/Overu
-- Desired Position: JavaScript/Front-end Engineer
-- Resume : https://github.com/Overu/resume/blob/master/resume.md
+# PROFESSIONAL SUMMARY
+
+- **Senior Front-end Architect / Development Expert**: 14 years of front-line R&D and system architecture experience, deeply engaged in the JavaScript/TypeScript front-end ecosystem, with exceptional expertise in large-scale front-end engineering systems design, cross-end compilation, and high-performance rendering engines.
+- **Deep and Comprehensive Technical Expertise**: Proficient in mainstream frameworks like Vue, React, and Uni-App, as well as cross-platform development technologies including Android and Electron; deep understanding and extensive practical experience in WebGL 3D rendering, compilation principles, and mobile OpenGL rendering.
+- **Outstanding Team & Business Empowerment**: Strong technical leadership, successfully led front-end teams in establishing version control workflows, scaffolding templates, and CI/CD pipelines, significantly shortening iteration cycles; expert at tackling core business challenges from 0 to 1 and driving hard technical breakthroughs; highly self-driven with a strong passion for technology.
 
 ---
 
-# Work Experience
-## Shanghai Weimob Enterprise Development Co., Ltd. (2020.04 ~ 2022.05)
-### Smart Retailer Assistant (MiniProgram)
-- The initial mainly takes over the function iteration, involving some complex functions such as billing and commodities, soon responsible for the overall development.
-- Due to the changeable business and requirements, and the problem of code sharing of multiple MiniPrograms, we started to overturn and rewrite architecture to support module development, module pluggable, etc., and compile different MiniProgram types with CLI and different configuration files, which can be packaged for one business or multiple businesses.
-- Basing on the technology stack of MiniProgram, by using Gulp to increase the compilation layer to achieve module isolation, module life cycle, module compilation, configuration analysis and code injection, etc.
-- Develop and test the process, and greatly improve the efficiency.
+# TECHNICAL SKILLS
 
-### Kratos
-- Weimob MiniProgram platform, which provides a way to develop Weimob MiniProgram with the syntax and development method of WeChat MiniProgram, turning the MiniProgram into the first language, one set of code, multi-terminal operation, and supporting the mixing of MiniProgram components and Vue components edit
-- Consists of Android/iOS SDK, MiniProgram translation tools and runtime, back-end auditing and versioning platform
-- Third-party developers or merchants with self-research capabilities can port their own MiniPrograms to the Weimob MiniProgram platform, while also supporting overall deployment in their own apps
-- Build a modern engineering system from scratch based on pnpm, TypeScript, Vue, vite, esbuild, swc, postCSS, etc.
-- Front-end principal and Lead Programmer 
-
-### Sogou MiniProgram
-- Sogou input method MiniProgram, providing functions such as logging in, selecting merchants, sharing product information to chat boxes, etc.
-- Based on Vue，TypeScript，Webpack
-- Independent development
-
-### base-bridge
-- Encapsulate Android/iOS bridge, provides standardized interface to provide services for a large number of Hybrid pages in the App.
-- TypeScript
-- Independent development
-
-## Ningbo Huanai Space-Time Network Technology Co., Ltd. (2017.09 ~ 2020.03)
-### vsmap
-- 3D map rendering SDK, support online editing POI style
-- Based on WebGL, self-developed architecture, abstract Node, in addition to rendering nodes and data nodes, also provides many special functions of the node, such as automatic replacement of the rendering target in the view range
-- Independent development
-- Using Web Worker to process large-scale vertex data including styles, vertex merging, etc.
-
-### triangulation
-- Map data conversion tool for converting different data sources into a private format that can be recognized by [vsmap](#vsmap), and implementing data validation, triangulation, etc
-- Kotlin, implements programmable style configuration through KTS, abstracts data sources, designs intermediate formats, provides plug-in mechanism, and packages into CLI
-- Independent development
-
-### Keystore
-- Enterprise-level digital currency online banking SDK, including encryption algorithm, certificate operation, communication, data serialization, key storage, operation specification process API and other functions, providing support for [illidan](#illidan) and [neltharion](#neltharion) support
-- Based on C++, libuv, supports [illidan](#illidan) through cross-compilation, [neltharion](#neltharion) through Node N-API
-- Responsible for some communication functions, certificate distribution, verification and other functions
-- Implement simple device discovery and connection based on libuv for [illidan](#illidan) and [neltharion](#neltharion)
-
-### illidan
-- An enterprise-level digital currency signature app that provides key management, digital certificates, encryption and decryption services for [neltharion](#neltharion)
-- Based on React Native, React Navigation, Dva, wrapping [Keystore](#Keystore) through RN C++ Module to provide JS layer API
-- App principal and lead programmer, technology selection and core code writing
-- The capabilities of RN C++ Module shields the difference of Android/iOS underlying bridge implementation, and also exposes the API of C++ module directly
-
-Project address: [https://enterprise.keystore.com/](https://enterprise.keystore.com/)
-
-
-### neltharion
-- Enterprise-level digital currency online banking, providing financial processes, operational specifications and effective supervision for enterprise digital currency asset activities, supporting a range of functions such as multi-currency, payment and receipt, reporting, role permissions, etc.
-- Adopt Electron, React, Mobx, etc., based on TypeScript, integrate [Keystore](#Keystore) through Electron Node N-API. Adopt a more modern engineering management system, with CI and other tools, which greatly improved the development and testing efficiency
-- Front-end principal and lead programmer, front-end technology selection and core code writing
-
-Project address: [https://enterprise.keystore.com/](https://enterprise.keystore.com/)
-
-### MapCube
-- JavaScriptD map rendering SDK, support indoor and outdoor map display on the same screen, integrated positioning and navigation, support data pre-processing
-- Based on WebGL, Flow.js, Webpack, etc., private data formats
-- Lead programmer, basic code writing and integration of Gaode outdoor maps, conversion tools, etc.
-- Preprocessing of map data through conversion tools can avoid data exposure, and at the same time, time-consuming operations such as triangulation and merging can be removed from the browser
-
-demo: The map data is relatively large, the network is slow and a ladder is required, please be patient.[https://overu.github.io/mapcube-example/index.html](https://overu.github.io/mapcube-example/index.html)
-
-## Shanghai Palmap Intelligent Technology Co., Ltd (2013.09 ~ 2017.08)
-### JavaScript 3D Map Rendering Engine
-- JavaScript map rendering SDK, consistent with the 3D map engine (API, rendering effect), is also the main product, supporting indoor multi-floor interactive rendering on the same screen
-- Based on three.js and also exploring WebGL, the more burdensome computational tasks (such as positioning algorithms) are placed in Web Worker
-- Principal and lead programmer, from technology selection to core code writing, etc.
-
-### Android 3D map rendering engine
-- 3D map rendering SDK, the bottom layer uses C/C++ to implement a set of codes, which can run across Android, iOS, macOS, Windows, etc, supports custom map style through Lua
-- Based on Irrlicht, shield the differences of graphics API of different platforms , not only can cross-platform, but also support cross-engine
-- Principal and lead programmer, from technology selection to core code writing, compilation on Android side
-- Did a lot of work on memory leaks, such as wrapping C++ objects, increasing reference counts, providing count stabilization when escaping to the Java layer, rendering optimizations, merging static POIs, and reducing rendering batches
-
-### Android 2D map rendering engine
-- 2D map rendering SDK, parsing and rendering of GeoJSON data, providing rich  interfaces for interaction
-- Independent development, from 0 to 1, contact with Android 2D graphics API, have a preliminary understanding of graphics rendering, and have the concept of basic graphics  
-- A lot of optimization practices. For example, map rendering with a POI of a certain magnitude will have stuck behavior, and map data needs to be segmented. Each segment is rendered by a thread, and then synthesized by the main thread
-
-## Shanghai Retech Information Technology Co., Ltd. (2012.02 ~ 2013.08)
-### Keruixing Preschool Education Platform
-- A multimedia education platform for young children, supporting the distribution of multimedia courseware resources, providing real-time teaching, online multi-person collaboration, similar to Google Drive
-- Referring to the technical characteristics of Google Wave, online multi-person collaboration is realized through real-time editing and conflict resolution strategies
-- Responsible for front-end development, understand the concept of components and modules through the use of Google Closure, and contact Vert.x while helping to do part of the back-end development
-
-### Readers
-- An online reader based on HTLM5/CSS3
-- Early exploration of Hybrid, compiling to different platforms by using PhoneGap (Apache Cordova), and implement Java to JavaScript conversion based on GWT
-- Responsible for front-end development
+- **Programming Languages**: JavaScript, TypeScript, Java, Kotlin, Python, C/C++
+- **Front-end Frameworks**: Vue.js (Vue 2 / Vue 3), React, React Native, Uni-App, HTML5 / CSS3
+- **Build & Engineering**: Vite, Webpack, Rollup, Monorepo (Lerna / pnpm), CI/CD (GitHub Actions / GitLab CI), Git-flow
+- **Cross-end & Platforms**: Android (OpenGL ES, JNI / NDK), Electron, Hybrid, WeChat MiniProgram
+- **Core Technologies**: WebGL (2D / 3D Rendering), Node.js, compiler-core, N-API
 
 ---
 
-## Amateur Program
-### wx-compiler
-Convert WeChat applet components (script, json, wxml, wxss) to Vue Component Render, supporting most of the syntax
-- A lot of exploration and application to swc, esbuild
-- wxml repl: [https://overu.github.io/wx-ast-explorer/index.html](https://overu.github.io/wx-ast-explorer/index.html)
+# WORK EXPERIENCE
 
-### Unit Conversions
-Used for unit conversion, Android App, it’s my own amateur practice, mainly to learn and understand RoboGuice (Google Guice extension, lightweight IoC framework).
-- Link: [https://github.com/Overu/conversion](https://github.com/Overu/conversion)
+## Shanghai Qiniu Information Technology Co., Ltd. | Shanghai
+**Front-end Developer** | 2025.07 ~ 2026.03
+- Responsible for core daily feature iterations and user experience optimization of the open-source game construction tool **XBuilder** (based on spx, XGo ecosystem).
+- **Copilot & AI Module Development**: Guided and participated in the 0-to-1 design and implementation of cutting-edge business sectors such as Copilot Agent, AIGC asset generation, and Course modules using Vue and AI Agent tech stack; unified front-end component specifications.
+- **Map Editor & Interaction Optimization**: Spearheaded the refactoring and optimization of complex interactive modules such as Map Editor, resolving community-reported logical blockages and dramatically improving product interaction smoothness and stability.
+- *Project Link*: [goplus/builder (GitHub)](https://github.com/goplus/builder)
+
+## Shanghai Zhizhen Intelligent Network Technology Co., Ltd. (Xiao-i) | Shanghai
+**Front-end Developer** | 2023.08 ~ 2025.06
+- **Hearview Intelligent Subtitle Glasses App (uni-app / Android)**
+  - **Technical Lead**: Led the technology selection and pioneered key technical breakthroughs under a team structure lacking native app experience; resolved low-level hardware issues including high-performance multi-platform microphone recording, stable Bluetooth connection, and system float window adaptation.
+  - **Cross-platform Algorithm Integration**: Successfully ported Python-written encryption/AI algorithms, integrating them seamlessly with C++ dynamic link libraries and the ONNX runtime model; completed app architecture design and App Store/Google Play listing within one month.
+  - **Business Impact**: Served North American hearing-impaired communities with millisecond-level high-precision voice transcription screencasting, multi-language translation, and ambient noise detection, significantly enhancing the core interactive experience.
+  - *Project Links*: [Hearview Official Website](https://www.hearview.ai/) | [App Store](https://apps.apple.com/sg/app/hearview/id6502384670)
+- **Notion-like Rich Text Editor & Knowledge Acquisition Tool**
+  - **Core Architecture Design**: Spearheaded the design of the rich text editor's underlying block structure, resolving performance bottlenecks in collaborative editing and multi-format document (Word, Markdown, etc.) import/export.
+  - **Performance Achievements**: Utilized Vite + Monorepo architecture to manage multi-project dependencies, package, and debug; optimized the rendering pipeline to achieve millisecond-level smooth rendering for ultra-long documents containing tens of thousands of blocks, eliminating interaction stutter.
+
+## Shanghai Doulang Information Technology Co., Ltd. | Shanghai
+**Front-end Lead** | 2022.06 ~ 2023.06
+- **Team Management & Standards**: Led the front-end team, established version control specifications, component guidelines, and collaboration workflows, stabilizing and shortening the iteration cycle to a bi-weekly release cadence.
+- **Polestar Collaboration (Low-code Automated Tables & Workflows)**
+  - **Architecture Design**: Responsible for core product architecture and module iterations, developed automated workflow services to expand application scenarios, and seamlessly integrated with open platform ecosystems like Lark (Feishu), DingTalk, and WeChat Work.
+  - **Rendering Performance Breakthrough**: Thoroughly refactored and optimized high-density data rendering modules for tables and Gantt charts, slashing the rendering time of massive 30,000-row tables from system freezing/lagging to smooth rendering under 2 seconds, significantly driving user experience and client conversion.
+
+## Shanghai Weimob Enterprise Development Co., Ltd. | Shanghai
+**Front-end Architect** | 2020.04 ~ 2022.05
+- **Weimob MiniProgram Platform Architecture (Kratos & wxml-compiler)**
+  - **Self-developed Compiler**: Independently designed and developed `wxml-compiler` (a translation tool based on Vue `compiler-core`), supporting over 90% of native wxml syntax (including import, include, template is, etc.), and achieving highly efficient conversion from MiniProgram templates to Vue Component Render Functions.
+  - **Cross-end Architecture**: Spearheaded the overall architecture design of the Kratos MiniProgram platform; developed runtime environment (Runtime) and JS Bridge communication mechanism compatible with WeChat MiniProgram APIs, achieving 80% code reuse and seamless hybrid compilation between MiniProgram and App platforms.
+  - **Engineering & Standards**: Built modern front-end Monorepo systems and generic component libraries; organized and implemented a TC39-like front-end specifications proposal mechanism, systematically enhancing team coding quality and standards.
+  - *Online Demos*: [wx-ast-explorer](https://overu.github.io/wx-ast-explorer/index.html) | [README](https://github.com/Overu/overu.github.io/blob/master/README.md)
+- **Smart Retail Merchant Assistant**
+  - **Architecture Refactoring**: Decoupled and heavily refactored the core modules of the Merchant Assistant App (billing, inventory, membership, etc.), designing and implementing a highly pluggable micro-frontend/modular build architecture based on module lifecycle and dependency analysis.
+  - **Efficiency Improvement**: Developed custom CLI tools and automated configuration solutions, replacing outdated multi-developer shared single-repo and manual packaging processes to achieve 100% automated CI/CD deployment.
+
+## Ningbo Huanai Space-Time Network Technology Co., Ltd. | Shanghai
+**Front-end Lead** | 2017.09 ~ 2020.04
+- **Keystore Enterprise-grade Digital Asset Custody System**
+  - **Cross-platform Native Integration**: Led the design and development of cross-platform App engines, integrating high-performance cryptographic and signature algorithms via N-API and React Native C++ Modules, achieving 100% code reuse for encryption algorithms.
+  - **Efficiency Improvement**: Introduced standardized Git-flow branching strategies and automated CI/CD pipelines, compressing front-end build and deployment times from 1 hour to just a few minutes.
+- **MapCube Integrated Indoor-Outdoor Rendering Engine**
+  - **Rendering Algorithm Optimization**: Spearheaded the development of a pioneering, integrated indoor-outdoor rendering SDK, overcoming the isolated boundaries of traditional map engines by hijacking and fusing camera control parameters of AMAP (AutoNavi) and Mapbox.
+  - **Performance Optimization**: Employed vertex merging, mesh simplification, and offloaded computation-heavy tasks to server-side pre-processing, boosting browser-side map rendering performance by 100%+ and maintaining a stable 60 FPS in complex scenarios.
+  - *Online Demo*: [mapcube-example](https://overu.github.io/mapcube-example/index.html)
+
+## Shanghai Palmap Intelligent Technology Co., Ltd. | Shanghai
+**Front-end Developer** | 2013.09 ~ 2017.08
+- **Indoor Map Rendering SDK (JS & Android)**
+  - **Performance Refactoring**: Guided the optimization of the underlying pipeline for 2D/3D indoor map rendering SDKs, writing efficient batch rendering algorithms that dramatically reduced Draw Calls.
+  - **Cross-language Architecture**: Refactored core modules with WebGL and Android OpenGL ES, establishing a high-efficiency cross-language communication architecture via JNI/NDK, completely resolving memory leaks and reducing the Android-side memory leak rate by 80%.
+  - **Business Value**: Maintained a stable rendering frame rate above 60 FPS on Web; the core SDK was widely integrated and adopted by industry leaders like Alibaba and extensive developer communities.
+
+## Shanghai Retech Information Technology Co., Ltd. | Shanghai
+**Front-end Developer** | 2012.02 ~ 2013.08
+- **Keruixing Preschool Education Platform (SaaS)**
+  - **Technical Construction**: Built a highly modular enterprise front-end engineering system based on the Google Closure Library.
+  - **Real-time Collaboration**: Fully utilized HTML5 & CSS3, integrating Google Wave-like real-time collaborative editing to achieve millisecond-level online teaching sync across multiple terminals.
 
 ---
 
-## Skills
-- Languages: JavaScript/TypeScript/Java/Kotlin/C/C++
-- Front-end framework: Vue/React/ReactNative
-- Front-end tools: vite/webpack/rollup
-- Platform: Android/Electron/WeChat applet/Hybrid
-- Other: WebGL/Node.js
+# EDUCATION
 
-## Thanks
-Thank you for reading my resume carefully, due to the limited writing and unsatisfactory summary ability, there may be mistakes in many aspects, please bear with me. I would appreciate it if you could give me an interview opportunity
+- **Shanghai Institute of Technology** | Bachelor's Degree | Computer Science and Technology | 2023 - 2025
+- **Fudan University (Self-Taught)** | Associate Degree | Computer Information Management | 2006 - 2010
