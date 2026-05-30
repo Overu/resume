@@ -29,7 +29,7 @@ Target Position: JavaScript / Front-end Architect / Senior Front-end Developer
 **Front-end Developer** | 2025.07 ~ 2026.03
 - Responsible for core daily feature iterations and user experience optimization of the open-source game construction tool **XBuilder** (based on spx, XGo ecosystem).
 - **Copilot & AI Module Development**: Guided and participated in the 0-to-1 design and implementation of cutting-edge business sectors such as Copilot Agent, AIGC asset generation, and Course modules using Vue and AI Agent tech stack; unified front-end component specifications.
-- **Map Editor & Interaction Optimization**: Spearheaded the refactoring and optimization of complex interactive modules such as Map Editor, resolving community-reported logical blockages and dramatically improving product interaction smoothness and stability.
+- **Map Editor & Interaction Optimization**: Refactored and optimized complex interactive modules such as Map Editor, resolving community-reported logical blockages and dramatically improving product interaction smoothness and stability.
 - *Project Link*: [goplus/builder (GitHub)](https://github.com/goplus/builder)
 
 ## Shanghai Zhizhen Intelligent Network Technology Co., Ltd. (Xiao-i) | Shanghai
@@ -64,7 +64,7 @@ Target Position: JavaScript / Front-end Architect / Senior Front-end Developer
 ## Ningbo Huanai Space-Time Network Technology Co., Ltd. | Shanghai
 **Front-end Lead** | 2017.09 ~ 2020.04
 - **Keystore Enterprise-grade Digital Asset Custody System**
-  - **Cross-platform Native Integration**: Led the design and development of cross-platform App engines, integrating high-performance cryptographic and signature algorithms via N-API and React Native C++ Modules, achieving 100% code reuse for encryption algorithms.
+  - **Cross-platform Native Integration**: Led the design and development of cross-platform App engines, integrating high-performance cryptographic and signature algorithms via N-API and React Native C++ Modules, achieving 100% code reuse for encryption algorithms. Developed an enterprise-grade digital currency online banking system using Electron, supporting multi-currency transactions, payments/receipts, financial reporting, and role-based access control.
   - **Efficiency Improvement**: Introduced standardized Git-flow branching strategies and automated CI/CD pipelines, compressing front-end build and deployment times from 1 hour to just a few minutes.
 - **MapCube Integrated Indoor-Outdoor Rendering Engine**
   - **Rendering Algorithm Optimization**: Spearheaded the development of a pioneering, integrated indoor-outdoor rendering SDK, overcoming the isolated boundaries of traditional map engines by hijacking and fusing camera control parameters of AMAP (AutoNavi) and Mapbox.
@@ -74,7 +74,7 @@ Target Position: JavaScript / Front-end Architect / Senior Front-end Developer
 ## Shanghai Palmap Intelligent Technology Co., Ltd. | Shanghai
 **Front-end Developer** | 2013.09 ~ 2017.08
 - **Indoor Map Rendering SDK (JS & Android)**
-  - **Performance Refactoring**: Guided the optimization of the underlying pipeline for 2D/3D indoor map rendering SDKs, writing efficient batch rendering algorithms that dramatically reduced Draw Calls.
+  - **Performance Refactoring**: Guided the optimization of the underlying pipeline for 2D/3D indoor map rendering SDKs, implementing highly efficient batch rendering algorithms that dramatically reduced Draw Calls.
   - **Cross-language Architecture**: Refactored core modules with WebGL and Android OpenGL ES, establishing a high-efficiency cross-language communication architecture via JNI/NDK, completely resolving memory leaks and reducing the Android-side memory leak rate by 80%.
   - **Business Value**: Maintained a stable rendering frame rate above 60 FPS on Web; the core SDK was widely integrated and adopted by industry leaders like Alibaba and extensive developer communities.
 
